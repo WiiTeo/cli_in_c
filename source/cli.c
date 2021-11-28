@@ -6,15 +6,15 @@ int main() {
 	char response[5];
 	CLI:
 		printf("CLI:>");
-    scanf("%s", response);
-    if (strcmp(response, "hello")==0){
+		scanf("%s", response);
+		if (strcmp(response, "hello")==0){
     			printf("Hey Bro\n");
     			goto CLI;
 		}
 		if (strcmp(response, "exit")==0){
     			printf("cli: logout.");
     			return 0;
-    }
+                }
 		else {
 			goto CLI;
 		}
