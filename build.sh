@@ -1,6 +1,8 @@
 # CLI_IN_C BUILD.SH FILE
 # By WiiTeo
 
+# Require GCC
+
 clear
 echo Build.
 
